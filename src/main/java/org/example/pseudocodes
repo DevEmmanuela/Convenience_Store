@@ -1,0 +1,41 @@
+1. Create a class called staff and assign attributes to it
+1a. The level attribute of class staff should be constant
+1c. The address attribute will be a class and will be called in staff class (composition)
+1d. Call a constructor on Staff class, use getter and setter to make it accessible, and override it with a string(so as to
+be able to access the desired output of the class(not printing a reference))
+
+2.Create a manager class and let it extend to Staff. Also assign the constructor of the super class
+
+3. Create a cashier class and let it extend to Staff. Also assign the constructor of the super class
+
+4.Create a customers class
+4a. Use getter and setter to make it accessible
+4b. Override it with toString()
+
+
+5.Create a products class
+5a. Use getter and setter to make it accessible
+5b. Override it with toString()
+
+6. Manager can hire a cashier
+6a. Create an applicant class
+6b. Assign attributes to it
+6c. Use setter to allow applicant set their attributes
+6d. Use getter to get what applicants has filled
+6e. Also use toString() to override it so as to get the exact values we need
+6f. Create an interface to store the hire method, this will allow manager to be able to implement and override the
+hire method called in the interface
+6g. Instantiate an applicant object from the Applicant class
+6h. Set parameters into the hire method(Applicant newCashier, String qualified, Integer age)
+
+7.Under Manager, call the hire method by implementing it, override it and set the necessary conditions
+
+8. Instantiate the applicant class to get details of the applicant
+
+9. Instantiate the address class to create an address for the manager
+
+10. Instantiate the Manager class to get details of the Manager
+
+11. Call the hire method
+
+12.
